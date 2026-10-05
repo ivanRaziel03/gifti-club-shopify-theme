@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "gf_hero": {
+      "type": "gf-hero"
+    },
+    "gf_marquee": {
+      "type": "gf-marquee"
+    },
+    "gf_values": {
+      "type": "gf-value-props"
+    },
+    "gf_collection": {
+      "type": "gf-collection"
+    },
+    "gf_builder": {
+      "type": "gf-builder"
+    },
+    "gf_reviews": {
+      "type": "gf-testimonials"
+    }
+  },
+  "order": [
+    "gf_hero",
+    "gf_marquee",
+    "gf_values",
+    "gf_collection",
+    "gf_builder",
+    "gf_reviews"
+  ]
+}

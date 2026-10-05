@@ -1,0 +1,4 @@
+# Configuración opcional para Shopify CLI.
+# La tienda se configura localmente al conectar el repositorio con Shopify.
+[environments.default]
+store = "vidasanapostura.myshopify.com"

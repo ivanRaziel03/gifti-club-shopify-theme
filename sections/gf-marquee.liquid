@@ -1,0 +1,4 @@
+
+{{ 'gf-styles.css' | asset_url | stylesheet_tag }}
+<section class="gf-section gf-marquee"><div class="gf-marquee__track">{%- for i in (1..2) -%}<span>{{ section.settings.text }}</span><span>✦</span><span>{{ section.settings.text_2 }}</span><span>✦</span><span>{{ section.settings.text_3 }}</span><span>✦</span>{%- endfor -%}</div></section>
+{% schema %}{"name":"GF · Banda de marca","tag":"section","settings":[{"type":"text","id":"text","label":"Frase 1","default":"REGALOS QUE HABLAN"},{"type":"text","id":"text_2","label":"Frase 2","default":"HECHO CON INTENCIÓN"},{"type":"text","id":"text_3","label":"Frase 3","default":"GIFTI CLUB MÉXICO"}],"presets":[{"name":"GF · Banda de marca"}]}{% endschema %}
