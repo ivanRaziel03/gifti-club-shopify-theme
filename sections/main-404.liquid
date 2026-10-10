@@ -1,23 +1,2 @@
-<style type="text/css">
-  .template-404 .title + * {
-    margin-top: 1rem;
-  }
-
-  @media screen and (min-width: 750px) {
-    .template-404 .title + * {
-      margin-top: 2rem;
-    }
-  }
-</style>
-
-<div class="template-404 page-width page-margin center">
-  <p>
-    {{ 'templates.404.subtext' | t }}
-  </p>
-  <h1 class="title">
-    {{ 'templates.404.title' | t }}
-  </h1>
-  <a href="{{ routes.all_products_collection_url }}" class="button">
-    {{ 'general.continue_shopping' | t }}
-  </a>
-</div>
+<section class="page-width section-pad empty-state"><p style="font-size:4rem" aria-hidden="true">🐾</p><h1 class="section-heading">Esta huellita no lleva a ningún lado.</h1><p>La página pudo cambiar de lugar. Vamos de vuelta a encontrar algo bonito.</p><a class="button" href="{{ routes.root_url }}">Volver al inicio</a></section>
+{% schema %}{"name":"Página 404","settings":[],"presets":[{"name":"Página 404"}]}{% endschema %}
